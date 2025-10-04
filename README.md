@@ -1,4 +1,4 @@
-# Smart Tender Search
+# Smart Tender Search / Legacy version
 
 An automated procurement tender search system that monitors Czech Republic and European Union public procurement opportunities, analyzes their relevance using AI, and delivers personalized email notifications to users.
 
