@@ -1,0 +1,41 @@
+<?php
+/*
+Plugin Name: Custom REST Endpoints
+Description: Adds custom REST API endpoints to retrieve user role by ID.
+Version: 1.0
+Author: Bohuslav Sedláček
+*/
+
+// Register custom REST API endpoint
+add_action('rest_api_init', function () {
+    register_rest_route('custom-endpoints/v1', '/user-role/(?P<id>\d+)', array(
+        'methods' => 'GET',
+        'callback' => 'get_user_role_by_id',
+        'permission_callback' => 'api_key_check' // Updated permission callback
+    ));
+});
+
+// Callback function to retrieve user role by ID
+function get_user_role_by_id($request) {
+    $user_id = $request['id'];
+    $user = get_userdata($user_id);
+
+    if ($user) {
+        return rest_ensure_response($user->roles);
+    } else {
+        return new WP_Error('user_not_found', 'User not found', array('status' => 404));
+    }
+}
+
+// Updated function to check for a valid API key
+function api_key_check($request) {
+    $api_key = $request->get_header('x-api-key');
+
+    if (defined('MY_API_KEY') && $api_key === MY_API_KEY) {
+        return true; // Return true if API key matches
+    } else {
+        // Return false if not matched, don't directly return WP_Error here
+        return false;
+    }
+}
+?>
